@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rompecabezas Millonario</title>
+    <link rel="stylesheet" href="css/juego.css">
+  </head>
+  <body>
+    <div class="col-40">
+      <div id="titulo">
+        <h1>Rompecabezas Millonario</h1>
+      </div>
+
+      <div id="instrucciones">
+
+        <h2>INSTRUCCIONES:</h2>
+
+        <ul id="lista-instrucciones">
+        </ul>
+
+      </div>
+
+      <div id="objetivo">
+
+        <h2>OBJETIVO:</h2>
+        <img src="images/River.jpg" alt="Objetivo del juego">
+
+      </div>
+
+      <div id="ultimo-mov">
+        
+        <div id="flecha" class="texto-centrado">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="col-60">
+
+      <div id="juego">
+
+        <div id="pieza1" class="pieza"><img class="imgpieza" src="images/River-01.jpg" alt="Imagen1"></div>
+        <div id="pieza2" class="pieza"><img class="imgpieza" src="images/River-02.jpg" alt="Imagen2"></div>
+        <div id="pieza3" class="pieza"><img class="imgpieza" src="images/River-03.jpg" alt="Imagen3"></div>
+        <div id="pieza4" class="pieza"><img class="imgpieza" src="images/River-04.jpg" alt="Imagen4"></div>
+        <div id="pieza5" class="pieza"><img class="imgpieza" src="images/River-05.jpg" alt="Imagen5"></div>
+        <div id="pieza6" class="pieza"><img class="imgpieza" src="images/River-06.jpg" alt="Imagen6"></div>
+        <div id="pieza7" class="pieza"><img class="imgpieza" src="images/River-07.jpg" alt="Imagen7"></div>
+        <div id="pieza8" class="pieza"><img class="imgpieza" src="images/River-08.jpg" alt="Imagen8"></div>
+        <div id="pieza9" class="pieza"></div>
+
+      </div>
+    </div>
+
+    <div id="openModal" class="modalDialog">
+
+      <div id= "cartel">
+
+        <a href="#close" title="Close" class="close" onclick="javascript:closeModal();">X</a>
+        <h2>¡Dale campeón!</h2>
+        <p>¡Ganaste! Recargá la página y volvé a jugar.</p>
+        
+      </div>
+    </div>
+
+    <footer>
+      <p>Luciano Fernández - Desarrollador Web Jr.</p>
+    </footer>
+
+    <script src="js/juego.js"></script>
+
+  </body>
+</html>
